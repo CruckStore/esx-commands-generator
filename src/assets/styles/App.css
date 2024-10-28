@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.checkbox{
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.command-form, .command-preview, .help-section {
+  background: #333;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.arg-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.command-form input, .command-form select, .permissions-manager input, .permissions-manager select {
+  padding: 5px;
+  margin: 5px 0;
+  width: calc(33% - 10px);
+}
+
+.command-form button, .permissions-manager button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.command-preview pre {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.help-section ul {
+  padding-left: 20px;
+}
+
+.help-section li {
+  margin-bottom: 10px;
+}
